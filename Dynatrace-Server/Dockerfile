@@ -2,9 +2,9 @@ FROM debian:wheezy
 
 MAINTAINER Martin Etmajer <martin.etmajer@dynatrace.com>
 
-ENV VERSION             "6.3"
-ENV INSTALLER_FILE_NAME "dynatrace-server-linux-x86.jar"
-ENV INSTALLER_URL       "http://downloads.dynatracesaas.com/${VERSION}/${INSTALLER_FILE_NAME}"
+ENV VERSION             "6.5"
+ENV INSTALLER_FILE_NAME "dynatrace-full-6.5.0.1278-linux-x86-64.jar"
+ENV INSTALLER_URL       "https://dl.dropboxusercontent.com/u/61124235/${INSTALLER_FILE_NAME}"
 
 ENV DT                  "/dynatrace"
 ENV COLLECTOR_PORT      "6698"
