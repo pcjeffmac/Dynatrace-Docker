@@ -2,10 +2,10 @@ FROM alpine:3.3
 
 MAINTAINER Martin Etmajer <martin.etmajer@dynatrace.com>
 
-ENV VERSION                 "6.3"
-ENV NODE_INSTALLER64_URL    "http://downloads.dynatracesaas.com/${VERSION}/dynatrace-nodejsagent-linux-x64.tgz"
-ENV WSAGENT_INSTALLER32_URL "http://downloads.dynatracesaas.com/${VERSION}/dynatrace-wsagent-linux-x86.tar"
-ENV WSAGENT_INSTALLER64_URL "http://downloads.dynatracesaas.com/${VERSION}/dynatrace-wsagent-linux-x64.tar"
+ENV VERSION                 "6.5"
+ENV NODE_INSTALLER64_URL    "https://dl.dropboxusercontent.com/u/61124235/dynatrace-one-agent-nodejs-6.5.0.1278-linux-x86.tgz"
+ENV WSAGENT_INSTALLER32_URL "https://dl.dropboxusercontent.com/u/61124235/dynatrace-wsagent-6.5.0.1278-linux-x86-32.tar"
+ENV WSAGENT_INSTALLER64_URL "https://dl.dropboxusercontent.com/u/61124235/dynatrace-wsagent-6.5.0.1278-linux-x86-64.tar"
 
 ENV DT                      "/dynatrace"
 ENV AGENT_LIB32             "${DT}/agent/lib/libdtagent.so"
